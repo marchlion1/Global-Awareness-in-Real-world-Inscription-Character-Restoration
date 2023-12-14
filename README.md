@@ -72,6 +72,34 @@ We build a new dataset for the real-world inscription character restoration task
     </tr>
     </table>
 
-## Download 
+## Setup
 
-We will make our dataset available after acceptance of our paper.
+
+
+1. Download Datasets in link
+2. We stored data from all animal images and labels in a single directory. The directory structure looks like:
+3. install ...
+
+
+
+## Usage
+
+### Quick start 
+
+### Train
+
+### Evaluation
+
+
+
+
+
+## Acknowledgements
+
+
+
+Our code refers the following repositores:
+
+## Citation
+
+
