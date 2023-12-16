@@ -81,12 +81,23 @@ We build a new dataset for the real-world inscription character restoration task
 3. install ...
 
 
-
 ## Usage
+
+We provide demo codes for end-to-end inference here.
+Our inference codes will iterate all images in a given folder, and generate the results.
 
 ### Quick start 
 
-### Train
+
+### Training
+
+This demo runs RACIDiff Model with ARMCD images.
+
+```bash
+python train.py --epochs 2000 --time_steps 50 --input_dir None --output_dir ./output --localmask_dir ./mask
+```
+
+After runnng, it will generate the model results in the folder  ./output and the localmask results in the folder ./mask
 
 ### Evaluation
 
